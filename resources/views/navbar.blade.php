@@ -1,5 +1,4 @@
 <nav id="topNav" class="navbar navbar-default navbar-fixed-top">
-    <div class="container-fluid">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar">
                     <span class="sr-only">Toggle navigation</span>
@@ -31,7 +30,6 @@
                 </li>
             </ul>
         </div>
-    </div>
 </nav>
 
 <script>
@@ -42,4 +40,15 @@
             $('img.brand').attr("src", "/asset/Dreamson-Logo.png")
         }
     })
+
+    if (window.location.pathname == '/custom-made') {
+        $('.nav li:nth-child(1)').addClass('active')
+    } else if (window.location.pathname == '/retail') {
+        $('.nav li:nth-child(2)').addClass('active')
+    } else if (window.location.pathname == '/about') {
+        $('.nav li:nth-child(3)').addClass('active')
+    }
+    else if (window.location.pathname == '/galeri') {
+        $('.nav li:nth-child(4)').addClass('active')
+    }
 </script>

@@ -1,11 +1,9 @@
 @extends('master')
 @section('content')
-<section class="bg-custom-made">
-<div class="container">
+<div class="bg-custom-made">
 <h3>Apa itu Custom Made?</h3>
 <p></p>
 </div>
-</section>
  <div class="container slide-wrapper ">
             <div id="myCarousel" class="carousel slide">
                 <!-- Indicators -->
@@ -141,11 +139,11 @@
  <div class="col-lg-12 text-center">
                 <h2 class="margin-top-0 text-primary"><span class="divider">KAMI MENGERJAKAN </span></h2>
             </div>
-<div class="col-md-6 push">
+<div class="col-md-6 cs-md-galeri-kiri">
 <img src="/asset/pk-dewasa.png"></img>
 <img src="/asset/pk-balita.png"></img>
 </div>
-<div class="col-md-6 push">
+<div class="col-md-6 cs-md-galeri-kanan">
 <img src="/asset/pk-anak.png"></img>
 <img src="/asset/aksesoris.png"></img>
 </div>
