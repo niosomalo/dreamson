@@ -3,7 +3,7 @@
     <div class="header-content">
         <div class="inner">
             <h1 class="cursive">Dreamson</h1>
-            <h4>A free landing page theme with video background</h4>
+            <h4> landing page theme with video background</h4>
             <hr>
             <a href="#video-background" id="toggleVideo" data-toggle="collapse" class="btn btn-primary btn-xl">Toggle Video</a>&nbsp;
             <a href="#one" class="btn btn-primary btn-xl page-scroll">Get Started</a>
